@@ -1,0 +1,156 @@
+     /* BODY  */
+body{
+font-family: 'Ubuntu';
+text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+p{
+  color: grey;
+
+}
+                      /* navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+                       /* download buttons */
+
+.download-button{
+  margin: 5% 4% 5% 0;
+}
+
+                       /* title */
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+.container{
+  padding: 2% 3% 6%;
+}
+.h1-text{
+font-size: 3.5rem;
+color: white;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  background-color: transparent;
+  margin-left: 4rem;
+  position: absolute;
+  /* z-index: -1; */
+  right: 20%;
+}
+                           /* features */
+
+#features{
+  padding: 11% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+                  /* testimonials  section + press section*/
+
+#testimonials{
+  background-color: #ef8172;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3rem;
+}
+
+.testimonial-text{
+  color: #fff;
+  font-family: "Montserrat";
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+}
+.press-image{
+  width: 12%;
+  margin: 20px 20px;
+}
+
+.carousel-inner{
+  padding: 7% 24% 8% 24%;
+}
+
+                      /* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+                 /* call to action section */
+
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+  padding: 5% 28% 5% 28%;
+}
+
+.cta-h3{
+  padding-bottom: 10px;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.cta-button{
+  margin-right:2rem;
+}
+
+                    /* footer section */
+
+#footer{
+  padding-bottom: 40px;
+}
+.footer-icon{
+  margin-top: 6rem;
+  margin-right: 1.2rem;
+  margin-bottom: 2%;
+}
+
+@media (max-width:1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    }
+
+  #title{
+    text-align: center;
+    }
+
+}
